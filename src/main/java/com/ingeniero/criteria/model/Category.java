@@ -1,4 +1,4 @@
-package com.ingeniero.jpql.model;
+package com.ingeniero.criteria.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

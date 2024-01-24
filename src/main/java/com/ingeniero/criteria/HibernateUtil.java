@@ -1,4 +1,4 @@
-package com.ingeniero.jpql;
+package com.ingeniero.criteria;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;

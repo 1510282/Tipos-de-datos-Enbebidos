@@ -4,25 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dacca2d2-83a8-45bb-b053-1ab5bfc346a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/jpql/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/jpql/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/jpql/model/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/jpql/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/jpql/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ingeniero/QueryTest.java" afterDir="false" />
+    <list default="true" id="dacca2d2-83a8-45bb-b053-1ab5bfc346a6" name="Changes" comment="curso 4">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ingeniero/criteriaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ingeniero/jpql/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ingeniero/jpql/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ingeniero/jpql/model/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ingeniero/jpql/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ingeniero/jpql/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ingeniero/QueryTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +38,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2bIrqRYa8QkJA8m8CcHIUEKzlFb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -65,18 +57,30 @@
     "JUnit.QueryTest.findByIdIn.executor": "Run",
     "JUnit.QueryTest.findeByCity.executor": "Run",
     "JUnit.QueryTest.update.executor": "Run",
+    "JUnit.criteriaTest.findAll.executor": "Run",
+    "JUnit.criteriaTest.findBetween.executor": "Run",
+    "JUnit.criteriaTest.findByMultipleSelect.executor": "Run",
+    "JUnit.criteriaTest.findByMultipleWhere.executor": "Run",
+    "JUnit.criteriaTest.findByOne.executor": "Run",
+    "JUnit.criteriaTest.nameByEmailLike.executor": "Run",
+    "JUnit.criteriaTest.nameByPiceGreatherThanEquals.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/marcoscalerofuentes/Documents/GitHub/AD/Hibernate-jpql/src/main/java/model",
+    "last_opened_file_path": "/Users/marcoscalerofuentes/Documents/GitHub/AD/Hibernate-Criteria",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -88,9 +92,9 @@
       <recent name="com.ingeniero.jpql" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueryTest.delete">
-    <configuration name="QueryTest.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpql" />
+  <component name="RunManager" selected="JUnit.criteriaTest.findByMultipleSelect">
+    <configuration name="criteriaTest.findBetween" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-curso1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ingeniero.*" />
@@ -98,15 +102,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ingeniero" />
-      <option name="MAIN_CLASS_NAME" value="com.ingeniero.QueryTest" />
-      <option name="METHOD_NAME" value="count" />
+      <option name="MAIN_CLASS_NAME" value="com.ingeniero.criteriaTest" />
+      <option name="METHOD_NAME" value="findBetween" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpql" />
+    <configuration name="criteriaTest.findByMultipleSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-curso1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ingeniero.*" />
@@ -114,15 +118,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ingeniero" />
-      <option name="MAIN_CLASS_NAME" value="com.ingeniero.QueryTest" />
-      <option name="METHOD_NAME" value="delete" />
+      <option name="MAIN_CLASS_NAME" value="com.ingeniero.criteriaTest" />
+      <option name="METHOD_NAME" value="findByMultipleSelect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryTest.findByIdIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpql" />
+    <configuration name="criteriaTest.findByMultipleWhere" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-curso1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ingeniero.*" />
@@ -130,15 +134,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ingeniero" />
-      <option name="MAIN_CLASS_NAME" value="com.ingeniero.QueryTest" />
-      <option name="METHOD_NAME" value="findByIdIn" />
+      <option name="MAIN_CLASS_NAME" value="com.ingeniero.criteriaTest" />
+      <option name="METHOD_NAME" value="findByMultipleWhere" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryTest.findeByCity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpql" />
+    <configuration name="criteriaTest.nameByEmailLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-curso1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ingeniero.*" />
@@ -146,15 +150,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ingeniero" />
-      <option name="MAIN_CLASS_NAME" value="com.ingeniero.QueryTest" />
-      <option name="METHOD_NAME" value="findeByCity" />
+      <option name="MAIN_CLASS_NAME" value="com.ingeniero.criteriaTest" />
+      <option name="METHOD_NAME" value="nameByEmailLike" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpql" />
+    <configuration name="criteriaTest.nameByPiceGreatherThanEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-curso1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ingeniero.*" />
@@ -162,8 +166,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ingeniero" />
-      <option name="MAIN_CLASS_NAME" value="com.ingeniero.QueryTest" />
-      <option name="METHOD_NAME" value="update" />
+      <option name="MAIN_CLASS_NAME" value="com.ingeniero.criteriaTest" />
+      <option name="METHOD_NAME" value="nameByPiceGreatherThanEquals" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QueryTest.delete" />
-        <item itemvalue="JUnit.QueryTest.update" />
-        <item itemvalue="JUnit.QueryTest.count" />
-        <item itemvalue="JUnit.QueryTest.findeByCity" />
-        <item itemvalue="JUnit.QueryTest.findByIdIn" />
+        <item itemvalue="JUnit.criteriaTest.findByMultipleSelect" />
+        <item itemvalue="JUnit.criteriaTest.findByMultipleWhere" />
+        <item itemvalue="JUnit.criteriaTest.findBetween" />
+        <item itemvalue="JUnit.criteriaTest.nameByPiceGreatherThanEquals" />
+        <item itemvalue="JUnit.criteriaTest.nameByEmailLike" />
       </list>
     </recent_temporary>
   </component>
@@ -194,8 +198,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705913626598</updated>
-      <workItem from="1705913628555" duration="2910000" />
+      <workItem from="1705913628555" duration="3586000" />
+      <workItem from="1706092899204" duration="3815000" />
     </task>
+    <task id="LOCAL-00001" summary="curso 4">
+      <option name="closed" value="true" />
+      <created>1705916609176</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705916609176</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,26 +226,26 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="curso 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="curso 4" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/ingeniero/QueryTest.java</url>
-          <line>69</line>
-          <properties class="com.ingeniero.QueryTest" method="findeByCity">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/ingeniero/criteriaTest.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/ingeniero/QueryTest.java</url>
-          <line>101</line>
-          <properties class="com.ingeniero.QueryTest" method="update">
+          <url>file://$PROJECT_DIR$/src/test/java/com/ingeniero/criteriaTest.java</url>
+          <line>36</line>
+          <properties class="com.ingeniero.criteriaTest" method="findByOne">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
