@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dacca2d2-83a8-45bb-b053-1ab5bfc346a6" name="Changes" comment="curso 4">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/converter/CategoryConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/EmployeeCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ingeniero/enumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9c048a7e-f545-4f16-917b-298f85399160.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9c048a7e-f545-4f16-917b-298f85399160.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ingeniero/criteriaTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -29,9 +45,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2bIrqRYa8QkJA8m8CcHIUEKzlFb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,18 +64,30 @@
     "JUnit.QueryTest.findByIdIn.executor": "Run",
     "JUnit.QueryTest.findeByCity.executor": "Run",
     "JUnit.QueryTest.update.executor": "Run",
+    "JUnit.enumTest.executor": "Run",
+    "JUnit.enumTest.findByCategory.executor": "Run",
+    "JUnit.enumTest.name.executor": "Run",
+    "JUnit.enumTestJplq.name.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/marcoscalerofuentes/Documents/GitHub/AD/Hibernate-jpql/src/main/java/model",
+    "last_opened_file_path": "/Users/marcoscalerofuentes/Documents/GitHub/AD/Hibernate-manejo-enums",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora_aws"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,23 +99,7 @@
       <recent name="com.ingeniero.jpql" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueryTest.delete">
-    <configuration name="QueryTest.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ingeniero.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ingeniero" />
-      <option name="MAIN_CLASS_NAME" value="com.ingeniero.QueryTest" />
-      <option name="METHOD_NAME" value="count" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.enumTest.findByCategory">
     <configuration name="QueryTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpql" />
       <extension name="coverage">
@@ -99,38 +111,6 @@
       <option name="PACKAGE_NAME" value="com.ingeniero" />
       <option name="MAIN_CLASS_NAME" value="com.ingeniero.QueryTest" />
       <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryTest.findByIdIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ingeniero.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ingeniero" />
-      <option name="MAIN_CLASS_NAME" value="com.ingeniero.QueryTest" />
-      <option name="METHOD_NAME" value="findByIdIn" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryTest.findeByCity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ingeniero.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ingeniero" />
-      <option name="MAIN_CLASS_NAME" value="com.ingeniero.QueryTest" />
-      <option name="METHOD_NAME" value="findeByCity" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,13 +132,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="enumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-curso1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ingeniero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ingeniero" />
+      <option name="MAIN_CLASS_NAME" value="com.ingeniero.enumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="enumTest.findByCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-curso1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ingeniero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ingeniero" />
+      <option name="MAIN_CLASS_NAME" value="com.ingeniero.enumTest" />
+      <option name="METHOD_NAME" value="findByCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="enumTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-curso1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ingeniero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ingeniero" />
+      <option name="MAIN_CLASS_NAME" value="com.ingeniero.enumTest" />
+      <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.enumTest.findByCategory" />
+        <item itemvalue="JUnit.enumTest" />
+        <item itemvalue="JUnit.enumTest.name" />
         <item itemvalue="JUnit.QueryTest.delete" />
         <item itemvalue="JUnit.QueryTest.update" />
-        <item itemvalue="JUnit.QueryTest.count" />
-        <item itemvalue="JUnit.QueryTest.findeByCity" />
-        <item itemvalue="JUnit.QueryTest.findByIdIn" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +193,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-2f79fb23" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-a81d5c7c" />
       </set>
     </attachedChunks>
   </component>
@@ -178,6 +206,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705913626598</updated>
       <workItem from="1705913628555" duration="3586000" />
+      <workItem from="1706119983110" duration="6030000" />
     </task>
     <task id="LOCAL-00001" summary="curso 4">
       <option name="closed" value="true" />

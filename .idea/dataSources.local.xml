@@ -14,7 +14,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="hibernate-curso1" />
+            <name qname="hibernate-curso5" />
           </node>
         </introspection-scope>
       </schema-mapping>
