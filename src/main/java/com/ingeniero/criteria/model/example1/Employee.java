@@ -1,6 +1,7 @@
-package com.ingeniero.criteria.model;
+package com.ingeniero.criteria.model.example1;
 
 import com.ingeniero.criteria.converter.CategoryConverter;
+import com.ingeniero.criteria.model.EmployeeCategory;
 import com.mysql.cj.protocol.ColumnDefinition;
 import jakarta.persistence.*;
 
@@ -12,16 +13,25 @@ public class Employee {
 
     private String name;
 
-    private String dni;
-
     private String age;
 
-   // @Enumerated(EnumType.STRING)
-    //@Column(columnDefinition = "varchar(30) default 'JUNIOR'")
-    @Enumerated(EnumType.ORDINAL)
-    @Convert(converter = CategoryConverter.class)
-    @Column(columnDefinition =  "smallint default 1")
-    private EmployeeCategory category;
+    @Embedded
+    private Address address;
+
+
+    public Employee(String name, String age, Address address) {
+        this.name = name;
+        this.age = age;
+        this.address = address;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
 
     public Employee() {
     }
@@ -31,17 +41,15 @@ public class Employee {
         return "Employee{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", dni='" + dni + '\'' +
                 ", age='" + age + '\'' +
-                ", category=" + category +
                 '}';
     }
 
     public Employee(String name, String dni, String age, EmployeeCategory category) {
         this.name = name;
-        this.dni = dni;
+
         this.age = age;
-        this.category = category;
+
     }
 
     public Long getId() {
@@ -60,13 +68,7 @@ public class Employee {
         this.name = name;
     }
 
-    public String getDni() {
-        return dni;
-    }
 
-    public void setDni(String dni) {
-        this.dni = dni;
-    }
 
     public String getAge() {
         return age;
@@ -76,11 +78,4 @@ public class Employee {
         this.age = age;
     }
 
-    public EmployeeCategory getCategory() {
-        return category;
-    }
-
-    public void setCategory(EmployeeCategory category) {
-        this.category = category;
-    }
 }

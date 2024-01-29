@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dacca2d2-83a8-45bb-b053-1ab5bfc346a6" name="Changes" comment="curso 4">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/converter/CategoryConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/EmployeeCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ingeniero/enumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9c048a7e-f545-4f16-917b-298f85399160.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9c048a7e-f545-4f16-917b-298f85399160.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="dacca2d2-83a8-45bb-b053-1ab5bfc346a6" name="Changes" comment="curso 6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/example1/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/example1/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/example2/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/example2/CompanyID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ingeniero/EmbeddableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ingeniero/embeddableTestId.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/Author.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ingeniero/criteria/model/example1/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ingeniero/criteriaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ingeniero/enumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ingeniero/enumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +31,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "1510282"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d3314ac4-e956-4623-b2d9-072a8eda7b40" />
+        <option name="url" value="https://github.com/1510282/Manejo-de-Enums-Hibnernate.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -56,6 +64,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.EmbeddableTest.executor": "Run",
+    "JUnit.EmbeddableTest.name.executor": "Run",
+    "JUnit.EmbeddableTestId.executor": "Run",
+    "JUnit.EmbeddableTestId.name.executor": "Run",
     "JUnit.QueryTest.count.executor": "Run",
     "JUnit.QueryTest.delete.executor": "Run",
     "JUnit.QueryTest.findAll.executor": "Run",
@@ -64,6 +76,7 @@
     "JUnit.QueryTest.findByIdIn.executor": "Run",
     "JUnit.QueryTest.findeByCity.executor": "Run",
     "JUnit.QueryTest.update.executor": "Run",
+    "JUnit.embeddableTestId.executor": "Run",
     "JUnit.enumTest.executor": "Run",
     "JUnit.enumTest.findByCategory.executor": "Run",
     "JUnit.enumTest.name.executor": "Run",
@@ -96,43 +109,12 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ingeniero.criteria.model.example1" />
       <recent name="com.ingeniero.jpql" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.enumTest.findByCategory">
-    <configuration name="QueryTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ingeniero.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ingeniero" />
-      <option name="MAIN_CLASS_NAME" value="com.ingeniero.QueryTest" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ingeniero.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ingeniero" />
-      <option name="MAIN_CLASS_NAME" value="com.ingeniero.QueryTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="enumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.embeddableTestId">
+    <configuration name="EmbeddableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hibernate-curso1" />
       <extension name="coverage">
         <pattern>
@@ -141,8 +123,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ingeniero" />
-      <option name="MAIN_CLASS_NAME" value="com.ingeniero.enumTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ingeniero.EmbeddableTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmbeddableTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-curso1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ingeniero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ingeniero" />
+      <option name="MAIN_CLASS_NAME" value="com.ingeniero.EmbeddableTest" />
+      <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="embeddableTestId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-curso1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ingeniero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ingeniero" />
+      <option name="MAIN_CLASS_NAME" value="com.ingeniero.embeddableTestId" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="embeddableTestId.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-curso1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ingeniero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ingeniero" />
+      <option name="MAIN_CLASS_NAME" value="com.ingeniero.embeddableTestId" />
+      <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,29 +192,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="enumTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hibernate-curso1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ingeniero.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ingeniero" />
-      <option name="MAIN_CLASS_NAME" value="com.ingeniero.enumTest" />
-      <option name="METHOD_NAME" value="name" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.embeddableTestId" />
+        <item itemvalue="JUnit.EmbeddableTest" />
+        <item itemvalue="JUnit.embeddableTestId.name" />
+        <item itemvalue="JUnit.EmbeddableTest.name" />
         <item itemvalue="JUnit.enumTest.findByCategory" />
-        <item itemvalue="JUnit.enumTest" />
-        <item itemvalue="JUnit.enumTest.name" />
-        <item itemvalue="JUnit.QueryTest.delete" />
-        <item itemvalue="JUnit.QueryTest.update" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +219,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705913626598</updated>
       <workItem from="1705913628555" duration="3586000" />
-      <workItem from="1706119983110" duration="6030000" />
+      <workItem from="1706119983110" duration="11597000" />
     </task>
     <task id="LOCAL-00001" summary="curso 4">
       <option name="closed" value="true" />
@@ -216,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705916609176</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="curso 6">
+      <option name="closed" value="true" />
+      <created>1706186772112</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706186772112</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +256,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="curso 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="curso 4" />
+    <MESSAGE value="curso 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="curso 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,7 +2,7 @@ package com.ingeniero;
 
 import com.ingeniero.criteria.HibernateUtil;
 import org.junit.jupiter.api.Test;
-import com.ingeniero.criteria.model.Employee;
+import com.ingeniero.criteria.model.example1.Employee;
 import com.ingeniero.criteria.model.EmployeeCategory;
 
 public class enumTest {
